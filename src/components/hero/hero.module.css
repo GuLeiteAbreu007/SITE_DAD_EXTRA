@@ -43,3 +43,10 @@
     width: 1300px;
 
 }
+
+.topics{
+    display: flex;
+    gap: 100px;
+    margin-top: -150px;
+    margin-bottom: 150px;
+}

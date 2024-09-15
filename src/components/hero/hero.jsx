@@ -22,6 +22,10 @@ import Cooler from '../../assets/cooler.png'
 import BookSelf from '../../assets/criadomudo.png'
 import Banner from "../../assets/banner.png"
 import Bannergrid from '../gridbanner/Banner.jsx'
+import Topic from "../topic/Topic.jsx"
+import services from "../../assets/Services.png"
+import services1 from "../../assets/Services1.png"
+import services2 from "../../assets/Services2.png"
 
 
 function Hero(){
@@ -91,6 +95,11 @@ function Hero(){
                 <Subtitle2 title='New Arrival' subtitle='Featured' ></Subtitle2>
             </div>
             <Bannergrid></Bannergrid>
+            <div className={style.topics}>
+                <Topic src={services} title='FREE AND FAST DELIVERY' text='Free delivery for all orders over R$140'></Topic>
+                <Topic src={services1} title='24/7 CUSTOMER SERVICE' text='Friendly 24/7 custumer support'></Topic>
+                <Topic src={services2} title='MONEY BACK GUARANTEE' text='We reurn money within 30 days'></Topic>
+            </div>
         </div>
     )
 }
