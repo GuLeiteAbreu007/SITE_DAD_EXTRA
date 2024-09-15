@@ -1,4 +1,5 @@
 import style from './footer.module.css'
+import codigobarras from '../../assets/codigobarrasfooter.png'
 function Footer(){
     return(
         <div className={style.footer}>
@@ -30,7 +31,7 @@ function Footer(){
             </div>
             <div className={style.geral}>
                 <p className={style.text}>Download App</p>
-                <img></img>
+                <img src={codigobarras}></img>
             </div>
         </div>
     )
