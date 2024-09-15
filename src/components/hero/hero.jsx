@@ -57,7 +57,7 @@ function Hero(){
                 <Bottonicon desc='HeadPhones' srcIcon={HeadPhones}></Bottonicon>
                 <Bottonicon desc='Gaming' srcIcon={Gamepad}></Bottonicon>
             </div>
-            <div className={style.secion2}>
+            <div className={style.secion6}>
                 <Subtitle2 title='Best Se lling Products' subtitle='This Month' ></Subtitle2>
                 <div>
                     <img src={left} alt="seta para direita" />
@@ -71,7 +71,7 @@ function Hero(){
                 <Cardsell title='Small BookSelf' imgSrc={BookSelf} alt="controle video game"  price='$360'  numberstar='65'></Cardsell>
             </div>
             <img className={style.imgphone} src={Banner}></img>
-            <div className={style.secion2}>
+            <div className={style.secion6}>
                 <Subtitle2 title='Explore Our Products' subtitle='Our Products' ></Subtitle2>
                 <div>
                     <img src={left} alt="seta para direita" />

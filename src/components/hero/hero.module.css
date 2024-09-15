@@ -50,3 +50,8 @@
     margin-top: -150px;
     margin-bottom: 150px;
 }
+
+.secion6{
+    display: flex;
+    gap: 700px;
+}
