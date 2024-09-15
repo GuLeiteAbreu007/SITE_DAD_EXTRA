@@ -1,0 +1,45 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 82px;
+    margin-bottom: 82px;
+    gap: 85px;
+}
+
+.imgphone{
+    width: 1000px;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+.secion{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.secion2{
+    display: flex;
+    gap: 900px;
+}
+
+.cardsicons{
+    display: flex;
+    gap: 50px;
+}
+
+.secion3{
+    display: flex;
+}
+
+.secion4{
+    width: 1300px;
+
+}
