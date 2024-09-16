@@ -48,7 +48,6 @@
     font-weight: 500;
     font-style: normal;
     color: rgb(141, 141, 141);
-
 }
 
 .title{
@@ -74,3 +73,14 @@
     color: rgb(141, 141, 141);
 }
 
+.group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.empty-class{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
